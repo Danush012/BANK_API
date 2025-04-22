@@ -10,7 +10,7 @@
 <ul>
 <li><b>Backend Framework: <u>Flask</u></b> Used to implement the RESTful API.</li>
 <li><b>Unit Tests:</b>It ensures that the endpoints return the correct status code and response data.</li>
-<li><b>Deployment: </b>Vercel (Due to the requirement of adding a payment method in Heroku’s free tier, which I find cautious, I opted to use Vercel for deployment instead).</li>
+<li><b>Deployment: </b>Vercel (I chose Vercel for deployment instead of Heroku, as Heroku’s free tier requires a payment method, which I approached cautiously).</li>
 </ul>
 <h3>Implementation</h3>
 <ol>
@@ -36,10 +36,10 @@
 </li>
 </ol>
 <h3>Deployment</h3>
-<p>The API was deployed on Vercel due to issues with Heroku's free-tier requirements, which require a payment method. Since I opted not to add a payment method for cautious reasons, <b><u>Vercel</u></b> was used as the deployment platform for easier setup and deployment.</p>
-<b>Vercel Deployment Link: </b> https://bank-api-rust.vercel.app
+<p>The API was deployed on Vercel due to limitations in Heroku's free tier, which requires a payment method. To avoid adding payment details for cautious reasons, I chose Vercel instead. It provided a simpler and more convenient deployment process.</p>
+<b>Vercel Deployment Link: </b> https://bank-api-blush.vercel.app/
 </ul>
 <h3>Time Taken</h3>
-<p>I spent 2-3 days working on this project with 8 to 12 hours of focussed work, focusing on building the API , testing, and deploying it.</p>
+<p>I dedicated 2–3 days with 8–12 hours of focused work each day to build, test, and deploy the API efficiently.</p>
 <h3>Challenges</h3>
-<p>I ran into some issues with deployment on Heroku due to the payment method, which led me to use Vercel instead. I learned a lot about deployment and error handling through this process.</p>
+<p>Faced deployment issues on Heroku due to payment requirements, so I switched to Vercel. This experience helped me gain valuable insights into deployment and error handling.</p>
