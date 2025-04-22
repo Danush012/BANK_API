@@ -35,6 +35,8 @@
 </ul>
 </li>
 </ol>
+<h3>Testcases :</h3>
+<p>Automated Testcases are implemented in test_app.py to verify API functionality.</p>
 <h3>Deployment</h3>
 <p>The API was deployed on Vercel due to limitations in Heroku's free tier, which requires a payment method. To avoid adding payment details for cautious reasons, I chose Vercel instead. It provided a simpler and more convenient deployment process.</p>
 <b>Vercel Deployment Link: </b> https://bank-api-blush.vercel.app/
